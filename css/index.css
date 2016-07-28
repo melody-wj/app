@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+body，div,ul,li,nav{
+	margin: 0;
+	-webkit-margin: 0;
+	padding: 0;
+	-webkit-padding: 0;
+	list-style: none;
+	-webkit-list-style: none;
+	}
+a{
+	text-decoration: none;
+	-webkit-text-decoration: none;
+}
+html{
+	font-size: 53.3% !important;
+	-webkit-font-size: 53.3% !important;
+}
+body{
+	font-family: Helvetica;
+	-webkit-font-family: Helvetica;
+	background-image:url(../images/bj.png);
+	background-size:cover;
+	color: #666;
+	-webkit-color: #666;
+}
+/* 内容开始*/
+.banner{
+	margin:auto;
+	 -webkit-margin:auto;
+	 max-width: 64rem;
+	-webkit-max-width:64rem;
+	overflow: hidden;
+	-webkit-overflow: hidden;
+	position: relative;
+	-webkit-position: relative;
+	margin-bottom:10px;
+	-webkit-margin-bottom:10px;
+}
+.banner .setbox{
+	width:100%;
+}
+.banner a img{
+	width:100%;
+	-webkit-width:100%;
+	height:auto;
+	-webkit-height:auto;
+	}
+.banner ul{
+	position:absolute;
+	-webkit-position:absolute;
+	left:49%;
+	overflow:hidden;
+	bottom:10px;
+	
+}
+.banner ul li{ 
+    height:23px;
+    _webkid-height:23px;
+	float:left;
+	margin-left:10px;
+	opacity:0.6;
+}	
+.banner ul li:hover{opacity:1;}
+.banner ul .on{opacity:1;}
+	}	
+/*banner结束*/
+
+/* nav开始 */
+.nav{
+	width:100%;
+	background-image:#FFF;
+	overflow: hidden;
+	padding:80px,0
+	}
+.nav a{
+	display: block;
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+.nav a img{
+	display: block;
+	width:100%;
+	margin: 0 auto;
+}
+.nav a p{
+	font-size: 1.5rem;
+	margin-top: 10px;
+	color: #666;
+}
+/*视频*/
+.video{
+	max-width: 64rem;
+	-webkit-max-width:64rem;
+	margin:auto;
+	width:100%;
+	}
+.video a{
+	display: block;
+}
+.video a img{
+	width:100%;
+}
+.yin{
+	margin:auto;
+	width:100%;
+	position:relative;
+	}
+.yin .yinpin{
+	width:100%;
+}
+.yin .yinpin img{
+	width:100%;
+}
+.yin p{
+	max-width: 64rem;
+	-webkit-max-width:64rem;
+	position:absolute;
+	left:20px;
+	bottom:0px;
+	font-size:17px;
+}
+.yin .music{
+	position: absolute;
+	right:13px;
+	bottom:5px;
+	width:23rem;
+	height:4rem;
+}
+.yin .music .line{
+	width:60%;
+	height:5px;
+	background: #b5b6b5;
+	position: absolute;
+	top:1.9rem;
+}
+.yin .music .line .line1{
+	width:0;
+	height:100%;
+	background:#5eaaec;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.yin .music .line .cir{
+	width:1rem;
+	height:1rem;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	background:#5eaaec;
+	position: absolute;
+	top:0;
+	left:0;
+	transform:translate(-25%,-25%);
+	z-index: 999;
+}
+.yin .music .shengyin{
+	position: absolute;
+	right:27%;
+	top:50%;
+	font-size: 2.5rem;
+	color:#5eaaec;
+	transform:translateY(-50%);
+}
+.yin .music .time{
+	color:#666;
+	position: absolute;
+	right:10%;
+	top:50%;
+	font-size: 2rem;
+	transform:translateY(-50%);
+}
+.yin .music .cor{
+	font-size: 2.5rem;
+	color:#5eaaec;
+	position: absolute;
+	right:0;
+	top:50%;
+	transform:translateY(-50%);
+}
